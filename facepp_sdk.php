@@ -18,14 +18,14 @@ class Facepp
     ### or                                             ###
     ### https://apius.faceplusplus.com/v2              ###
     ######################################################
-    public $server          = 'http://apicn.faceplusplus.com/v2';
-    #public $server         = 'https://apicn.faceplusplus.com/v2';
-    #public $server         = 'http://apius.faceplusplus.com/v2';
-    #public $server         = 'https://apius.faceplusplus.com/v2';
+    #    public $server          = 'http://apicn.faceplusplus.com/v2';
+    #    public $server         = 'https://apicn.faceplusplus.com/v2';
+    public $server         = 'http://apius.faceplusplus.com/v2';
+    #    public $server         = 'https://apius.faceplusplus.com/v2';
 
 
-    public $api_key         = '';        // set your API KEY or set the key static in the property
-    public $api_secret      = '';        // set your API SECRET or set the secret static in the property
+    public $api_key         = 'b0acda39f8deeb1677384a9fdb9d1356';        // set your API KEY or set the key static in the property
+    public $api_secret      = 'Cp190ucDfC2IPgTDWgTRc4sqbgNDhrr1';        // set your API SECRET or set the secret static in the property
 
     private $useragent      = 'Faceplusplus PHP SDK/1.1';
 
